@@ -34,7 +34,7 @@ project.Open("C:\Temp\\projeto2.rtd")
 #Módulo de referências do projeto
 from mr_project import *
 #VARIAVEL precisão CONDIZ COM A PRECISÃO A SER USADA AO COLETAR OS DADOS DAS BARRAS (Ex: precisão = 0.1 -> DADOS COLETADOS DE 0.1 em 0.1, MX(0.0), MX(0.1), MX(0.2))
-precisão = 0.01 #em m
+precisão = 0.1 #em m
 #4---------------------------------COLETANDO DADOS DO ROBOT---------------------------------------------------------#
 #Função que retorna uma seleção contendo apenas casos de carga do tipo COMB(Combinação)
     #No robot cada definição de carga ou combinação de carga é interpretado como caso de carga, para isso precisa-se filtrar para não gastar tempo e processamento com casos de carga do tipo carga simples
